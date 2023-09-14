@@ -82,6 +82,9 @@ class MainApp extends StatelessWidget {
                           ),
                         ),
                       ),
+
+                      SizedBox(width:200, child: TextField()),
+                      SizedBox(width:200, child: TextField()),
                      Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                        children: [
