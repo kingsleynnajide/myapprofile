@@ -85,11 +85,14 @@ class MainApp extends StatelessWidget {
                      Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                        children: [
-                          ElevatedButton(
-                            onPressed: (){ print("working"); }, 
-                            child: Text("Delete Profile"),
-                            style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.red)),),
-                         ElevatedButton(onPressed: (){ print("working"); }, child: Text("View Profile")),
+                          SizedBox(
+                            width: 200,
+                            child: ElevatedButton(
+                              onPressed: (){ print("working"); }, 
+                              child: Text("Delete Profile"),
+                              style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.red)),),
+                          ),
+                        
                        ],
                      )
                     ]),
